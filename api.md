@@ -1547,280 +1547,418 @@ debugItemsHaveDuplicateKeys（Iterable < Widget > items） → bool
 
 debugPrintStack（{ String label， int maxFrames }） →void
 使用debugPrint和 FlutterError.defaultStackFilter将当前堆栈转储到控制台。[...]
+
 debugWidgetBuilderValue（Widget小 部件， Widget 内置） →void
 断言built小部件不为空。[...]
+
 decodeImageFromList（Uint8List list） → Future < Image >
 从字节列表创建图像。[...]
+
 defaultScrollNotificationPredicate（ScrollNotification notification） → bool
 一个ScrollNotificationPredicate，它检查是否 notification.depth == 0，这意味着通知没有通过任何插入的滚动小部件。
 flipAxis（轴 方向） → 轴
 返回给定轴的反面。[...]
+
 flipAxisDirection（AxisDirection axisDirection） → AxisDirection
 返回给定AxisDirection的反向。[...]
+
 getAxisDirectionFromAxisReverseAndDirectionality（BuildContext context， Axis axis， bool reverse） → AxisDirection
-返回当前Directionality中给定Axis中 的AxisDirection（或反之，如果为true）。[...]reverse
+返回当前Directionality中给定Axis中 的AxisDirection（或反之，如果为true）。[...]
+
+reverse
 hashList（Iterable < Object > arguments） → int
 将Iterable中任意数量对象 的Object.hashCode值合并为一个值。如果给定null，则此函数将返回相同的值，就像给出一个空列表一样。
 hashValues（Object arg01， Object arg02，[ Object arg03 = _hashEnd， Object arg04 = _hashEnd， Object arg05 = _hashEnd， Object arg06 = _hashEnd， Object arg07 = _hashEnd， Object arg08 = _hashEnd， Object arg09 = _hashEnd， Object arg10 = _hashEnd， 对象 arg11 = _hashEnd， 对象 arg12 = _hashEnd， 对象 arg13 = _hashEnd， 对象 arg14 = _hashEnd， 对象 arg15 = _hashEnd， 对象 arg16 = _hashEnd， 对象 arg17 = _hashEnd， 对象 arg18 = _hashEnd， 对象 arg19 = _hashEnd， 对象 arg20 =_hashEnd ]） → int
 将最多20个对象的哈希码组合成一个值。[...]
+
 paintBorder（Canvas canvas， Rect rect，{ BorderSide top：BorderSide.none， BorderSide right：BorderSide.none， BorderSide bottom：BorderSide.none， BorderSide left：BorderSide.none }） →void
 在画布上绘制给定矩形周围的边框。[...]
+
 paintImage（{ Canvas canvas， Rect rect， Image image， ColorFilter colorFilter， BoxFit fit， Alignment alignment：Alignment.center， Rect centerSlice， ImageRepeat repeat：ImageRepeat.noRepeat， bool flipHorizo​​ntally：false }） →void
 将图像绘制到画布上的给定矩形中。[...]
+
 paintZigZag（画布 画布， 油漆 颜料， 偏移 开始， 偏移 结束， int zigs， 双倍 宽度） →void
 在两点之间画一条线，在连接两点的线上对角线前后切割。[...]
+
 positionDependentBox（{ Size size， Size childSize， Offset target， bool preferBelow， double verticalOffset：0.0， double margin：10.0 }） → Offset
 将子框放在容器框内，位于目标点的上方或下方。[...]
+
 precacheImage（ImageProvider 提供程序， BuildContext 上下文，{ Size size }） → Future < Null >
 将图像预取到图像缓存中。[...]
+
 runApp（小部件 应用程序） →无效
 给给定的小部件充气并将其附加到屏幕上。[...]
+
 textDirectionToAxisDirection（TextDirection textDirection） → AxisDirection
 返回在给定TextDirection中进行读取的AxisDirection。[...]
+
 枚举
 AnimationStatus
+
 动画的状态
 AppLifecycleState
 申请可以进入的国家。[...]
+
 轴
 两个方面的两个基本方向。[...]
+
 AxisDirection
 沿水平轴或垂直轴的方向。
+
 BannerLocation
 在哪里展示横幅。[...]
+
 混合模式
 在画布上绘画时使用的算法。[...]
+
 BlurStyle
 用于MaskFilter对象中模糊的样式。
+
 边框
 在边框中 为BorderSide绘制的线条样式。
+
 BoxFit
 如何将盒子刻在另一个盒子里。[...]
+
 BoxShape
 渲染Border或BoxDecoration时使用的形状。[...]
+
 ConnectionState
 与异步计算的连接状态。[...]
+
 CrossAxisAlignment
 如何将儿童沿横轴放置在柔性布局中。[...]
+
 CrossFadeState
 指定要显示的两个子项中的哪一个。请参阅AnimatedCrossFade。[...]
+
 DecorationPosition
 在哪里画一个盒子装饰。
+
 DiagnosticLevel
 用于过滤显示和省略哪些诊断的各种优先级。[...]
+
 DismissDirection
 可以驳回不予受理 的方向。
+
 DragAnchor
 凡可拖动应在拖动过程中被锚定。
+
 FadeInImagePhase
 FadeInImage经历 的阶段。
+
 FilterQuality
 图像过滤器的质量级别。[...]
+
 FLEXFIT
 如何将孩子铭刻在可用空间内。[...]
+
 FlutterLogoStyle
 绘制Flutter徽标的可能方法。
+
 字体样式
 是否在字体中倾斜字形
+
 GrowthDirection
 相对于滚动偏移轴，条子内容的排序方向。[...]
+
 HitTestBehavior
 在命中测试期间如何表现。
+
 ImageRepeat
 如何绘制未被图像覆盖的框的任何部分。
+
 MainAxisAlignment
 如何在柔性布局中沿着主轴放置子项。[...]
+
 MainAxisSize
 主轴应占用多少空间。[...]
+
 方向
 无论是纵向还是横向。
+
 溢出
 是否应该剪掉溢出的孩子，或者看到他们的溢出。
+
 PaintingStyle
 在画布上绘制形状和路径的策略。[...]
+
 PathFillType
 确定决定如何计算Path内部的缠绕规则。[...]
+
 RenderComparison
 两个对象之间差异的描述，在它将如何影响渲染的上下文中。[...]
+
 RoutePopDisposition
 指示是否应弹出当前路由。[...]
+
 SelectionChangedCause
 指示触发所选文本更改的内容（包括对光标位置的更改）。
+
 StackFit
 如何调整Stack的未定位子项的大小。[...]
+
 StrokeCap
 用于行结尾的样式。[...]
+
 StrokeJoin
 用于线连接的样式。[...]
+
 TableCellVerticalAlignment
 RenderTable对象中 单元格的垂直对齐选项。[...]
+
 上投放
 用户交互应适应目标的平台。[...]
+
 TextAffinity
 是否TextPosition是视觉上的上游或其偏移的下游。[...]
+
 textAlign设置
 是否以及如何水平对齐文本。
+
 TextBaseline
 用于对齐文本的水平线。
+
 TextDecorationStyle
 绘制文本装饰的样式
+
 TextDirection
 文本流动的方向。[...]
+
 TextOverflow
 如何处理溢出的文本。
+
 TextSelectionHandleType
 要显示哪种类型的选择句柄。[...]
+
 TILEMODE
 定义渐变边缘发生的事情。[...]
+
 VertexMode
 定义在绘制一组三角形时如何解释点列表。[...]
+
 VerticalDirection
 盒子垂直流动的方向。[...]
+
 WrapAlignment
 Wrap 如何对齐对象。[...]
+
 WrapCrossAlignment
 谁包裹应该在横轴的运行中对齐儿童。
+
 类型定义
 AnimatedCrossFadeBuilder（Widget topChild， Key topChildKey， Widget bottomChild， Key bottomChildKey） → Widget
 签名AnimatedCrossFade.layoutBuilder回拨。[...]
+
 AnimatedListItemBuilder（BuildContext context， int index， Animation < double > animation） → Widget
 使用的构建器回调的签名AnimatedList。
+
 AnimatedListRemovedItemBuilder（BuildContext context， Animation < double > animation） → Widget
 使用的构建器回调的签名AnimatedListState.removeItem。
+
 AnimatedSwitcherLayoutBuilder（List < Widget > children） → Widget
 用于生成自定义布局的构建器的签名 AnimatedSwitcher。[...]
+
 AnimatedSwitcherTransitionBuilder（Widget child， Animation < double > animation） → Widget
 用于生成自定义转换的构建器的签名 AnimatedSwitcher。[...]
+
 AnimationStatusListener（AnimationStatus status） →无效
 使用附加的听众签名Animation.addStatusListener。
+
 AsyncWidgetBuilder < T > （BuildContext context， AsyncSnapshot < T > snapshot） → Widget
 签名用于基于异步交互构建小部件的策略。[...]
+
 CreateRectTween（Rect begin， Rect end） → Tween < Rect >
 一个函数的签名，它接受两个Rect实例并返回 RectTween它们之间的转换。[...]
+
 DismissDirectionCallback（DismissDirection direction） →void
 使用的签名Dismissible表示已在给定的情况下被解雇direction。[...]
+
 DraggableCanceledCallback（速度 速度， 偏移 偏移） →无效
 在Draggable没有被a接受的情况下丢弃a的签名DragTarget。[...]
+
 DragTargetAccept < T > （T 数据） →无效
 用于使a DragTarget接受给定数据的签名。[...]
+
 DragTargetBuilder < T > （BuildContext context， List < T > candidateData， List rejectedData） → Widget
 建立儿童的签名DragTarget。[...]
+
 DragTargetLeave < T > （T 数据） →无效
 Draggable离开 时签名DragTarget。[...]
+
 DragTargetWillAccept < T > （T 数据） → bool
 用于确定给定数据是否将被a接受的签名DragTarget。[...]
+
 ElementVisitor（元素 元素） →无效
 签名回拨给BuildContext.visitChildElements。[...]
+
 ErrorWidgetBuilder（FlutterErrorDetails 详细信息） → Widget
 构建窗口小部件时发生错误时调用的构造函数的签名。[...]
+
 FormFieldBuilder < T > （FormFieldState < T > 字段） → Widget
 用于构建表示表单字段的窗口小部件的签名。[...]
+
 FormFieldSetter < T > （T newValue） →无效
 签名，以便在表单字段更改值时收到通知。[...]
+
 FormFieldValidator < T > （T 值） → 字符串
 用于验证表单字段的签名。[...]
+
 GenerateAppTitle（BuildContext context） → String
 签名WidgetsApp.onGenerateTitle。[...]
+
 GestureDragCancelCallback（） →无效
 当先前触发的指针GestureDragDownCallback未完成时的签名 。[...]
+
 GestureDragDownCallback（DragDownDetails 详细信息） →void
 当指针接触屏幕并可能开始移动时的签名。[...]
+
 GestureDragEndCallback（DragEndDetails 详细信息） →void
 当先前与屏幕接触并且移动的指针不再与屏幕接触时的签名。[...]
+
 GestureDragStartCallback（DragStartDetails 详细信息） →void
 指针接触屏幕并开始移动时的签名。[...]
+
 GestureDragUpdateCallback（DragUpdateDetails 详细信息） →void
 当与屏幕接触并且移动的指针再次移动时签名。[...]
+
 GestureLongPressCallback（） →无效
 当指针长时间保持与同一位置的屏幕保持接触时的签名。
+
 GestureRecognizerFactoryConstructor < T扩展GestureRecognizer > （） →T
 签名用于实现的闭包GestureRecognizerFactory.constructor。
+
 GestureRecognizerFactoryInitializer < T扩展GestureRecognizer > （T 实例） →无效
 签名用于实现的闭包GestureRecognizerFactory.initializer。
+
 GestureScaleEndCallback（ScaleEndDetails 详细信息） →无效
 当指针不再与屏幕接触时的签名。
+
 GestureScaleStartCallback（ScaleStartDetails 详细信息） →无效
 当与屏幕接触的指针建立焦点并且初始比例为1.0时的签名。
+
 GestureScaleUpdateCallback（ScaleUpdateDetails 详细信息） →无效
 当与屏幕接触的指针指示新的焦点和/或比例时的签名。
+
 GestureTapCallback（） →无效
 发生敲击时的签名。
+
 GestureTapCancelCallback（） →无效
 当先前触发a的指针GestureTapDownCallback不会导致点击时的签名 。
+
 GestureTapDownCallback（TapDownDetails 详细信息） →无效
 当可能导致点击的指针与屏幕接触时的签名。[...]
+
 GestureTapUpCallback（TapUpDetails 详细信息） →无效
 当触发敲击的指针停止接触屏幕时的签名。[...]
+
 ImageListener（ImageInfo image， bool synchronousCall） →void
 报告图像可用的回调签名。[...]
+
 IndexedWidgetBuilder（BuildContext context， int index） → Widget
 用于为给定索引创建窗口小部件的函数的签名，例如，在列表中。[...]
+
 InspectorSelectButtonBuilder（BuildContext context， VoidCallback onPressed） → Widget
 使用的构建器回调的签名 WidgetInspector.selectButtonBuilder。
+
 InspectorSelectionChangedCallback（） →无效
 用于选择的签名更改回调 WidgetInspectorService.selectionChangedCallback。
+
 LayoutWidgetBuilder（BuildContext context， BoxConstraints constraints） → Widget
+
 LayoutBuilder构建器函数 的签名。
+
 LocaleResolutionCallback（Locale locale， Iterable < Locale > supportedLocales） → Locale
 签名WidgetsApp.localeResolutionCallback。[...]
+
 NestedScrollViewHeaderSliv​​ersBuilder（BuildContext context， bool innerBoxIsScrolled） → List < Widget >
 NestedScrollView用于构建其标题的 签名。[...]
+
 NotificationListenerCallback < T扩展通知 > （T 通知） → bool
 Notification听众 签名。[...]
+
 OrientationWidgetBuilder（BuildContext context， Orientation orientation） → Widget
 签名用于构建给定的小部件的函数Orientation。[...]
+
 PointerCancelEventListener（PointerCancelEvent 事件） →void
 用于收听PointerCancelEvent活动的签名。[...]
+
 PointerDownEventListener（PointerDownEvent 事件） →void
 用于收听PointerDownEvent活动的签名。[...]
+
 PointerMoveEventListener（PointerMoveEvent 事件） →void
 用于收听PointerMoveEvent活动的签名。[...]
+
 PointerUpEventListener（PointerUpEvent 事件） →void
 用于收听PointerUpEvent活动的签名。[...]
+
 RouteFactory（RouteSettings 设置） → 路由
 为给定的路线设置创建路线。[...]
+
 RoutePageBuilder（BuildContext context， Animation < double > animation， Animation < double > secondaryAnimation） → Widget
 用于PageRouteBuilder构建路径主要内容的函数的签名。[...]
+
 RoutePredicate（路线 路线） → 布尔
 Navigator.popUntil谓词参数的 签名。
+
 RouteTransitionsBuilder（BuildContext context， Animation < double > animation， Animation < double > secondaryAnimation， Widget child） → Widget
 用于PageRouteBuilder构建路径转换的函数的签名。[...]
+
 ScrollNotificationPredicate（ScrollNotification 通知） → bool
 谓词ScrollNotification，用于自定义侦听来自其子项的通知的小部件。
+
 SelectionChangedCallback（TextSelection selection， SelectionChangedCause cause） →void
 用户更改选择（包括光标位置）时报告的回调签名。
+
 SemanticsBuilderCallback（Size size） → List < CustomPainterSemantics >
 返回的函数的签名CustomPainter.semanticsBuilder。[...]
+
 ShaderCallback（Rect bounds） → Shader
 签名为创建Shader给定的函数Rect。[...]
+
 StatefulWidgetBuilder（BuildContext context， StateSetter setState） → Widget
 使用的构建器回调的签名StatefulBuilder。[...]
+
 StateSetter（VoidCallback fn） →无效
 State.setState功能 的签名。
+
 TextSelectionOverlayChanged（TextEditingValue value， Rect caretRect） →void
 签名报告变更的筛选组件 TextEditingValue为的目的TextSelectionOverlay。该 caretRect参数给出插入符在的坐标空间中的位置RenderBox由给定的TextSelectionOverlay.renderObject。[...]
+
 TransitionBuilder（BuildContext context， Widget child） → Widget
 给孩子建立小部件的构建器。[...]
+
 TweenConstructor < T > （T targetValue） → Tween < T >
 签名Tween工厂。[...]
+
 TweenVisitor < T > （Tween < T > 补间， T targetValue， TweenConstructor < T > 构造函数） → Tween < T >
 传递回调的签名AnimatedWidgetBaseState.forEachTween。
+
 ValueChanged < T > （T 值） →无效
 报告基础值已更改的回调签名。[...]
+
 ValueGetter < T > （） →T
 用于按需报告值的回调签名。[...]
+
 ValueSetter < T > （T 值） →无效
 用于报告已设置值的回调的签名。[...]
+
 ViewportBuilder（BuildContext context， ViewportOffset position） → Widget
 用于Scrollable构建视口的签名，通过该视口显示可滚动内容。
+
 VoidCallback（） →无效
 没有参数的回调签名并且不返回任何数据。
+
 WidgetBuilder（BuildContext context） → Widget
 用于创建窗口小部件的函数的签名，例如StatelessWidget.build 或State.build。[...]
+
 WillPopCallback（） → 未来< bool >
 签名回拨，验证可以调用Navigator.pop。[...]
+
 异常/错误
+
 FlutterError
 用于报告特定于Flutter的断言失败和合同违规的错误类。
+
 TickerCanceled
 当股票代码被取消时，TickerFuture.orCancel未来Ticker对象 抛出异常。
