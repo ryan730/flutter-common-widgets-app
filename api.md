@@ -500,202 +500,302 @@ fontWeight设置
 
 FormField < T >
 单个表单字段。[...]
+
 FormFieldState < T >
 FormField 的当前状态。传递给FormFieldBuilder方法，用于构造表单字段的小部件。
+
 FormState
 与窗口小部件关联的状态。[...]
+
 FractionallySizedBox
 一个小部件，可将其子级调整为总可用空间的一小部分。有关布局算法的更多详细信息，请参阅 RenderFractionallySizedOverflowBox。[...]
+
 FractionalOffset
 偏移量，表示为大小的一部分。[...]
+
 FractionalOffsetTween
 两个小数偏移之间的插值。[...]
+
 FractionalTranslation
 在绘制其子项之前应用转换转换。[...]
+
 FractionColumnWidth
 将列的大小调整为表的约束'maxWidth的一小部分。[...]
+
 FutureBuilder < T >
 基于与Future交互的最新快照构建自己的小部件。[...]
+
 GestureDetector
 检测手势的小部件。[...]
+
 GestureRecognizerFactory < T扩展了GestureRecognizer >
 用于创建手势识别器的工厂。[...]
+
 GestureRecognizerFactoryWithHandlers < T扩展了GestureRecognizer >
 工厂用于创建委托给回调的手势识别器。[...]
+
 GlobalKey < Ť延伸国< StatefulWidget > >
 整个应用程序中唯一的密钥。[...]
+
 GlobalObjectKey < Ť延伸国< StatefulWidget > >
 一个全局键，从用作其值的对象获取其标识。[...]
+
 GlowingOverscrollIndicator
 滚动视图已过度滚动的可视指示。[...]
+
 梯度
 2D渐变。[...]
+
 GridPaper
 一个小部件，用于绘制一个像素宽的直线网格。[...]
+
 网格视图
 可滚动的2D小部件数组。[...]
+
 英雄
 一个小部件，标记其子级为英雄动画的候选者。[...]
+
 HeroController
 一个导航观察者管理英雄的转变。[...]
+
 HoldScrollActivity
 滚动活动，除了可以释放以恢复正常的空闲行为之外什么也不做。[...]
+
 HSVColor
 使用alpha，hue，饱和度和值表示的颜色。[...]
+
 图标
 图形图标插件与来自于所述的字体的字形绘制IconData如材料的预定IconData以s 图标。[...]
+
 IconData
 字体标志符号表示的图标说明。[...]
+
 IconTheme
 控制窗口小部件子树中图标的默认颜色，不透明度和大小。[...]
+
 IconThemeData
 定义图标的颜色，不透明度和大小。[...]
+
 IdleScrollActivity
 滚动活动，什么都不做。[...]
+
 IgnorePointer
 在命中测试期间不可见的小部件。[...]
+
 图片
 显示图像的小部件。[...]
+
 ImageCache
 类为imageCache对象。[...]
+
 ImageConfiguration
 传递给ImageProvider.resolve方法的配置信息，用于选择特定图像。[...]
+
 的ImageIcon
 来自ImageProvider的图标，例如AssetImage。[...]
+
 的imageinfo
 一个dart：ui.Image对象及其对应的比例。[...]
+
 ImageProvider < T >
 识别图像而不提交精确的最终资产。这允许识别一组图像，并且稍后基于环境（例如，设备像素比）来解析精确图像。[...]
+
 ImageShader
 用于平铺图像的着色器（由Paint.shader使用）。
+
 的ImageStream
 图像资源的句柄。[...]
+
 ImageStreamCompleter
 用于管理dart加载的基类：用于ImageStream的ui.Image对象 。[...]
+
 ImplicitlyAnimatedWidget
 用于构建窗口小部件的抽象窗口小部件，可在一段时间内逐渐更改其值。[...]
+
 IndexedStack
 一个堆栈，显示来自子项列表的单个子项。[...]
+
 InheritedElement
 使用InheritedWidget作为其配置 的Element。
+
 InheritedWidget
 小部件的基类，可以有效地在树中传播信息。[...]
+
 InspectorSelection
 检查员的可变选择状态。
 间隔
 曲线直到开始为0.0 ，然后弯曲（根据曲线从0.0到1.0 结束，然后是1.0。[...]
+
 IntrinsicColumnWidth
 根据该列中所有单元格的固有尺寸确定列的大小。[...]
+
 IntrinsicHeight
 一个小部件，可以将其子级调整为子级的内在高度。[...]
+
 IntrinsicWidth
 一个小部件，可以将其子级调整为子级的内部宽度。[...]
+
 IntTween
 两个整数之间的插值。[...]
+
 活着
 标记一个孩子需要保持活着，即使它在一个懒惰的列表中，否则将删除它。[...]
+
 KeepAliveHandle
 甲收听其可以手动触发。[...]
+
 KeepAliveNotification
 指示此通知气泡必须保持活动的子树，即使它通常会作为优化被丢弃。[...]
+
 键
 Key是Widget，Element和SemanticsNode的标识符[...]
+
 KeyedSubtree
 构建其子项的小部件。[...]
+
 LabeledGlobalKey < Ť延伸国< StatefulWidget > >
 带调试标签的全局密钥。[...]
+
 LayerLink
 LeaderLayer可以注册 的对象。[...]
+
 LayoutBuilder
 构建可依赖于父窗口小部件大小的窗口小部件树。[...]
+
 LayoutChangedNotification
 指示接收此通知的对象的其中一个后代的布局已经以某种方式更改，因此关于该布局的任何假设都不再有效。[...]
+
 LayoutId
 用于标识CustomMultiChildLayout中的子项的元数据。[...]
+
 LeafRenderObjectElement
 使用LeafRenderObjectWidget作为其配置 的Element。
+
 LeafRenderObjectWidget
 RenderObjectWidgets的超类，用于配置没有子项的RenderObject子类。
+
 LimitedBox
 只有当它不受约束时才限制其大小的盒子。[...]
+
 的LinearGradient
 2D线性渐变。[...]
+
 ListBody
 一个小部件，它沿着给定的轴顺序排列它的子节点，强制它们到另一个轴的父节点的维度。[...]
+
 可听
 维护侦听器列表的对象。
+
 倾听者
 一个小部件，它响应指针事件调用回调。[...]
+
 列表显示
 可线性排列的小部件可滚动列表。[...]
+
 ListWheelScrollView
 一个盒子，可以滚动轮子上的孩子。[...]
+
 ListWheelViewport
 显示轮子上的子集子集的视口。[...]
+
 语言环境
 用于选择用户语言和格式首选项的标识符，由语言和国家/地区组成。这是BCP 47定义的区域设置标识符的子集。[...]
+
 LocalHistoryEntry
+
 LocalHistoryRoute 历史记录中的条目。
+
 LocalHistoryRoute < T >
 可以通过弹出列表在内部处理返回导航的路由。[...]
+
 本地化
 为其 定义区域设置child以及子项所依赖的本地化资源。[...]
+
 LocalizationsDelegate < T >
 用于一组本地化资源类型的工厂，T由Localizations小部件加载 。[...]
+
 LocalKey
 不是GlobalKey的关键[...]
+
 LongPressDraggable < T >
 从长按开始使其孩子可以拖拽。
+
 MaskFilter
 一个蒙版过滤器，用于在绘制时应用于形状。掩码过滤器是一种采用彩色像素位图的函数，并返回另一个彩色像素位图。[...]
+
 Matrix4
 4D矩阵。值以列主要顺序存储。
+
 Matrix4Tween
 两个Matrix4之间的插值。[...]
+
 MatrixUtils
 用于处理矩阵的实用程序函数。
+
 MaxColumnWidth
 确定列的大小，使其大小为两个列宽规范的最大值。[...]
+
 MediaQuery
 建立媒体查询解析给定数据的子树。[...]
+
 MediaQueryData
 有关介质的信息（例如，窗口）。[...]
+
 MemoryImage
 将给定的Uint8List缓冲区解码为图像，将其与给定的比例相关联。[...]
+
 MergeSemantics
 一个小部件，它合并其后代的语义。[...]
+
 元数据
 在渲染树中保存不透明的元数据。[...]
+
 MinColumnWidth
 确定列的大小，使其大小为两个列宽规范中的最小值。[...]
+
 ModalBarrier
 一个小部件，阻止用户与自身后面的小部件交互。[...]
+
 ModalRoute < T >
 阻止与先前路由交互的路由。[...]
+
 MultiChildLayoutDelegate
 一个控制多个子项布局的委托。[...]
+
 MultiChildRenderObjectElement
 使用MultiChildRenderObjectWidget作为其配置 的Element。[...]
+
 MultiChildRenderObjectWidget
+
 RenderObjectWidgets的超类，用于配置具有单个子项列表的RenderObject子类。（此超类仅为该子列表提供存储，它实际上不提供更新逻辑。）
+
 MultiFrameImageStreamCompleter
 管理图像帧的解码和调度。[...]
+
 NavigationToolbar
 NavigationToolbar是一个布局助手，用于沿水平轴定位3个小部件或小部件组，这对于应用程序的导航栏是合理的，例如在Material Design和iOS中。[...]
+
 航海家
 一个小部件，用于管理具有堆栈规则的一组子小部件。[...]
+
 NavigatorObserver
 用于观察导航器行为的界面。
+
 NavigatorState
 Navigator小部件 的状态。
+
 NestedScrollView
 其中的滚动视图可以嵌套其他滚动视图，其滚动位置本质上是链接的。[...]
+
 NestedScrollViewViewport
 NestedScrollView使用 的Viewport变体。[...]
+
 NetworkImage
 从网络获取给定的URL，将其与给定的比例相关联。[...]
+
 NeverScrollableScrollPhysics
 滚动物理，不允许用户滚动。[...]
+
 通知
 可以冒泡小部件树的通知。[...]
 NotificationListener < T extends Notification >
@@ -706,154 +806,229 @@ ObjectKey
 不可变的2D浮点偏移量。[...]
 台下
 一个小部件，它将孩子放在树中，但没有绘制任何东西，没有让孩子可用于命中测试，也没有占用父母的任何空间。[...]
+
 OneFrameImageStreamCompleter
 管理dart：ui.Image对象的加载，用于静态ImageStream（只有一帧）。
+
 不透明度
 使子项部分透明的小部件。[...]
+
 OrientationBuilder
 构建可依赖于父窗口小部件方向的窗口小部件树（与设备方向不同）。[...]
+
 OverflowBox
 一个小部件，它对子进程施加的约束不同于从其父进程获得的约束，可能允许子进程溢出父进程。[...]
+
 覆盖
 一个堆栈条目可以独立进行管理。[...]
+
 OverlayEntry
 在一个地方叠加，可以包含一个小部件。[...]
+
 OverlayRoute < T >
 在导航器的叠加层中显示窗口小部件的路径。
+
 OverlayState
 Overlay 的当前状态。[...]
+
 OverscrollIndicatorNotification
 GlowingOverscrollIndicator将开始显示过度滚动指示的 通知。[...]
+
 OverscrollNotification
 通知Scrollable小部件未更改其滚动位置，因为更改会导致其滚动位置超出其滚动边界。[...]
+
 填充
 一个小部件，通过给定的填充来保护其子级。[...]
+
 的PageController
 PageView 的控制器。[...]
+
 PageMetrics
 PageView的 度量标准。[...]
+
 PageRoute < T >
 替换整个屏幕的模态路线。
+
 PageRouteBuilder < T >
 用于根据回调定义一次性页面路由的实用程序类。[...]
+
 PageScrollPhysics
 滚动由使用物理浏览量。[...]
+
 PageStorage
 为此窗口小部件子树建立页面存储桶的窗口小部件。
+
 PageStorageBucket
 与应用中的页面关联的存储桶。[...]
+
 PageStorageKey < T >
 一个ValueKey用于定义PageStorage值将被保存。[...]
+
 页面预览
 可逐页工作的可滚动列表。[...]
+
 涂料
 在画布上绘制时使用的样式的说明。[...]
+
 PaintingBinding
 绑定绘画库。[...]
+
 PaintingContext
 一个画画的地方。[...]
+
 ParentDataElement < T扩展RenderObjectWidget >
 使用ParentDataWidget作为其配置 的Element。
+
 ParentDataWidget < T扩展RenderObjectWidget >
 将ParentData信息挂接到RenderObjectWidget的子 节点的小部件的基类。[...]
+
 路径
 平面的复杂一维子集。[...]
+
 PerformanceOverlay
 显示性能统计信息 [...]
+
 PhysicalModel
 表示将其子项剪辑为形状的物理层的窗口小部件。[...]
+
 PhysicalShape
 一个小部件，表示将其子级剪辑为路径的物理层。[...]
+
 占位符
 一个小部件，用于绘制一个框，表示有一天会添加其他小部件的位置。[...]
+
 PointerCancelEvent
 指针的输入不再指向此接收器。
+
 PointerDownEvent
 指针已与设备联系。
+
 PointerEvent
 触摸，手写笔或鼠标事件的基类。[...]
+
 PointerMoveEvent
 当指针与设备接触时，指针相对于设备移动。[...]
+
 PointerUpEvent
 指针已停止与设备联系。
+
 PopupRoute < T >
 在当前路线上覆盖窗口小部件的模态路径。
+
 定位
 一个控件，用于控制堆栈子项的位置。[...]
+
 PositionedDirectional
 一个小部件，用于控制堆栈子项的位置，而不需要提交特定的TextDirection。[...]
+
 PositionedTransition
 定位的 动画版本，它采用特定的 动画在动画的生命周期内将孩子的位置从起始位置转换到结束位置。[...]
+
 PREFERREDSIZE
 具有首选大小的小部件。[...]
+
 PreferredSizeWidget
 窗口小部件的接口，如果不受约束，则可以返回此窗口小部件所希望的大小。[...]
+
 PrimaryScrollController
 将ScrollController与子树关联。[...]
+
 ProxyAnimation
 作为另一个动画的代理的动画。[...]
+
 ProxyElement
 使用ProxyWidget作为其配置 的Element。
+
 ProxyWidget
 提供了子窗口小部件的窗口小部件，而不是构建新窗口小部件。[...]
+
 的RadialGradient
 2D径向渐变。[...]
+
 半径
 圆形或椭圆形的半径。
+
 RawGestureDetector
 一个小部件，用于检测给定手势工厂描述的手势。[...]
+
 RawGestureDetectorState
 国家对RawGestureDetector。
+
 RawImage
 一个直接显示dart：ui.Image的小部件。[...]
+
 RawKeyboardListener
 每当用户按下或释放键盘上的键时调用回调的小部件。[...]
+
 RawKeyEvent
 原始密钥事件的基类。[...]
+
 矩形
 一个不可变的，2D，轴对齐的浮点矩形，其坐标相对于给定的原点。[...]
+
 RectTween
 两个矩形之间的插值。[...]
+
 RelativePositionedTransition
 Positioned的 动画版本，它根据相对于具有指定大小的边界框的rect值转换子项的位置。[...]
+
 RelativeRect
 一个不可变的2D，轴对齐的浮点矩形，其坐标相对于另一个矩形的边缘给出，称为容器。由于矩形的尺寸是相对于容器的尺寸，因此该类没有宽度和高度成员。为了确定矩形的宽度或高度，将其转换为一个矩形使用toRect（） （通过容器本身的矩形），然后检查该对象。[...]
+
 RelativeRectTween
 两个相对rects之间的插值。[...]
+
 RenderBox
 2D笛卡尔坐标系中的渲染对象。[...]
+
 RenderNestedScrollViewViewport
 NestedScrollView使用 的RenderViewport变体。[...]
+
 渲染对象
 渲染树中的对象。[...]
+
 RenderObjectElement
 使用RenderObjectWidget作为其配置 的Element。[...]
+
 RenderObjectToWidgetAdapter < T扩展RenderObject >
 从RenderObject到Element树的桥梁。[...]
+
 RenderObjectToWidgetElement < T扩展RenderObject >
 由RenderObject托管的RootRenderObjectElement。[...]
+
 RenderObjectWidget
 RenderObjectWidgets提供用于配置RenderObjectElement s，这涡卷渲染对象 s，这提供了应用程序的实际渲染。
+
 RenderSliv​​erOverlapAbsorber
 包裹另一个的条子，迫使其布局范围被视为重叠。[...]
+
 RenderSliv​​erOverlapInjector
 基于存储在SliverOverlapAbsorberHandle中的值具有条子几何形状的条子 。[...]
+
 RepaintBoundary
 一个小部件，为其子级创建单独的显示列表。[...]
+
 ReverseAnimation
 与另一个动画相反的动画。[...]
+
 ReverseTween < T >
 一个Tween，反向评估其父级。
+
 富文本
 一段富文本。[...]
+
 RootRenderObjectElement
 树根处的元素。[...]
+
 RotatedBox
 一个小部件，可以将其子项旋转整数个四分之一圈。[...]
+
 RotationTransition
 动画小部件的旋转。
+
 RoundedRectangleBorder
 带圆角的矩形边框。[...]
+
 路线< T >
 由导航器管理的条目的抽象。[...]
 RouteAware
@@ -872,343 +1047,504 @@ SafeArea
 一个小部件，通过足够的填充来保护其子级，以避免操作系统的入侵。[...]
 锯齿
 锯齿曲线，在单位间隔内重复给定次数。[...]
+
 ScaleEndDetails
 有关GestureScaleEndCallback的详细信息。
+
 ScaleStartDetails
 有关GestureScaleStartCallback的详细信息。
+
 ScaleTransition
 动画转换小部件的比例。
+
 ScaleUpdateDetails
 有关GestureScaleUpdateCallback的详细信息。
+
 滚动
 滚动的小部件。[...]
+
 ScrollableState
 Scrollable小部件的 State对象。[...]
+
 ScrollActivity
 用于滚动活动（如拖动和投掷）的基类。[...]
+
 ScrollActivityDelegate
 ScrollActivity 的后端。[...]
+
 ScrollbarPainter
 用于绘制滚动条 的CustomPainter。[...]
+
 ScrollBehavior
 描述可滚动窗口小部件的行为方式。[...]
+
 ScrollConfiguration
 控制可滚动窗口小部件在子树中的行为方式。[...]
+
 ScrollContext
 Scrollable小部件实现 的接口，以便使用 ScrollPosition。[...]
+
 ScrollController
 控制可滚动的小部件。[...]
+
 ScrollDragController
 当用户在屏幕上拖动手指时滚动滚动视图。[...]
+
 ScrollEndNotification
 Scrollable小部件已停止滚动的 通知。[...]
+
 ScrollHoldController
 用于保持Scrollable静止的接口。[...]
+
 ScrollMetrics
 Scrollable内容的 描述，用于建模视口的状态。[...]
+
 ScrollNotification
 与滚动相关 的通知。[...]
+
 ScrollPhysics
 确定Scrollable小部件的物理特性。[...]
+
 的scrollPosition
 确定滚动视图中可见的内容部分。[...]
+
 ScrollPositionWithSingleContext
 滚动位置，用于管理单个ScrollContext的滚动活动 。[...]
+
 ScrollSpringSimulation
 一个SpringSimulation，其中x的值保证在模拟isDone（）时具有完全最终值。
+
 ScrollStartNotification
 Scrollable小部件已开始滚动的 通知。[...]
+
 ScrollUpdateNotification
 Scrollable小部件已更改其滚动位置的 通知。[...]
+
 滚动型
 滚动的小部件。[...]
+
 语义
 一个小部件，用小部件含义的描述来注释小部件树。[...]
+
 SemanticsDebugger
 一个可视化孩子语义的小部件。[...]
+
 着色器
 Gradient和ImageShader 等对象的基类，它们对应于Paint.shader使用的着色器。
+
 ShaderMask
 一个小部件，它将Shader生成的遮罩应用于其子级。[...]
+
 ShapeBorder
 形状轮廓的基类。[...]
+
 ShapeDecoration
 关于如何绘制任意形状的不可变描述。[...]
+
 ShrinkWrappingViewport
 内部较大的小部件，收缩包装在主轴上的子项。[...]
+
 模拟
 所有模拟的基类。[...]
+
 SingleChildLayoutDelegate
 用于计算具有单个子项的渲染对象的布局的委托。[...]
+
 SingleChildRenderObjectElement
 使用SingleChildRenderObjectWidget作为其配置 的Element。[...]
+
 SingleChildRenderObjectWidget
 RenderObjectWidgets的超类，用于配置具有单个子槽的RenderObject子类。（此超类仅为该子级提供存储，它实际上不提供更新逻辑。）
+
 SingleChildScrollView
 可以滚动单个窗口小部件的框。[...]
+
 SingleTickerProviderStateMixin < T扩展StatefulWidget >
 提供单个Ticker，配置为仅在启用当前树时打勾，如TickerMode所定义。[...]
+
 尺寸
 保持2D浮点大小。[...]
+
 SizeChangedLayoutNotification
 指示接收此通知的对象的其中一个后代的大小已更改，因此有关该布局的任何假设都不再有效。[...]
+
 SizeChangedLayoutNotifier
 一个小部件， 当其子级的布局维度发生更改时自动调度SizeChangedLayoutNotification。[...]
 SizedBox
+
 具有指定大小的框。[...]
+
 SizedOverflowBox
 一个特定大小的窗口小部件，但将其原始约束传递给其子节点，然后可能会溢出。[...]
+
 SizeTransition
 动画自己的大小和剪辑并对齐孩子。[...]
+
 SizeTween
 两种尺寸之间的插值。[...]
+
 SlideTransition
 动画小部件相对于其正常位置的位置。[...]
+
 SliverChildBuilderDelegate
 使用构建器回调为子项提供子项的委托。[...]
+
 SliverChildDelegate
 为儿童提供条子的代表。[...]
+
 SliverChildListDelegate
 使用明确列表为儿童提供儿童的代表。[...]
+
 SliverFillRemaining
 包含单个框子项的条子，填充视口中的剩余空间。[...]
+
 SliverFillViewport
 包含多个子框的子条，每个子框填充视口。[...]
+
 SliverFixedExtentList
 将多个具有相同主轴范围的盒子项放置在线性阵列中的条子。[...]
+
 SliverGrid
 将多个盒子儿童放置在二维排列中的条子。[...]
+
 SliverGridDelegate
 控制网格中图块的布局。[...]
+
 SliverGridDelegateWithFixedCrossAxisCount
 创建横轴中具有固定数量的切片的网格布局。[...]
+
 SliverGridDelegateWithMaxCrossAxisExtent
 使用每个都具有最大横轴范围的切片创建网格布局。[...]
+
 SliverList
 沿着主轴将多个盒子放置在线性阵列中的条子。[...]
+
 SliverMultiBoxAdaptorElement
 一个懒惰地为SliverMultiBoxAdaptorWidget构建子元素的元素。[...]
+
 SliverMultiBoxAdaptorWidget
 条子的基类，有多个盒子元素。[...]
+
 SliverOverlapAbsorber
 包裹另一个的条子，迫使其布局范围被视为重叠。[...]
+
 SliverOverlapAbsorberHandle
 提供给SliverOverlapAbsorber，SliverOverlapInjector和NestedScrollViewViewport的句柄，用于在NestedScrollView中移位重叠。[...]
+
 SliverOverlapInjector
 基于存储在SliverOverlapAbsorberHandle中的值具有条子几何形状的条子 。[...]
+
 SliverPadding
 在另一条棉条的每一侧都应用衬垫的条子。[...]
+
 SliverPersistentHeader
 当条子滚动到视口的前缘时，尺寸​​变化的条子。[...]
+
 SliverPersistentHeaderDelegate
 委派配置SliverPersistentHeader。
+
 SliverPrototypeExtentList
 将盒子放置在线性阵列中并将它们限制为沿主轴具有与原型项相同程度的条子。[...]
+
 SliverSafeArea
 通过足够的填充来插入另一条条子的条子，以避免操作系统的入侵。[...]
+
 SliverToBoxAdapter
 包含单个框小部件的条子。[...]
 堆
 一个小部件，用于将其子级相对于其框的边缘定位。[...]
+
 StadiumBorder
 一个边框，适合体育场形状的边框（两端有半圆形的框），适用于它所应用的小部件的矩形。[...]
+
 State < T扩展StatefulWidget >
 StatefulWidget 的逻辑和内部状态。[...]
+
 StatefulBuilder
 一个柏拉图窗口小部件，它们都具有状态并调用闭包来获取其子窗口小部件。[...]
+
 StatefulElement
 使用StatefulWidget作为其配置 的Element。
+
 StatefulWidget
 具有可变状态的小部件。[...]
+
 StatelessElement
 使用StatelessWidget作为其配置 的Element。
+
 StatelessWidget
 一个不需要可变状态的小部件。[...]
+
 StatusTransitionWidget
 在给定动画更改状态时重建的窗口小部件。
+
 StepTween
 地板之间的两个整数之间的插值。[...]
+
 StreamBuilder < T >
 基于与Stream交互的最新快照构建自身的小组件。[...]
+
 StreamBuilderBase < T，S >
 基于与指定Stream的交互构建自己的小部件的基类。[...]
+
 表
 为其子项使用表布局算法的窗口小部件。[...]
+
 表格边框
 表格小部件的 边框规范。[...]
+
 TableCell的
 一个小部件，用于控制表的子节点的对齐方式。[...]
+
 TableColumnWidth
 用于描述RenderTable中列的宽度的基类。[...]
+
 的TableRow
 表 中的一组水平单元格。[...]
+
 TapDownDetails
 有关GestureTapDownCallback的详细信息，例如位置。
+
 TapUpDetails
 有关GestureTapUpCallback的详细信息，例如位置。
+
 文本
 一系列具有单一样式的文本。[...]
+
 文本框
 包含一段文本的矩形。[...]
+
 TextDecoration
 在文本附近绘制的线性装饰。
+
 TextEditingController
 用于可编辑文本字段的控制器。[...]
+
 TextEditingValue
 用于编辑文本行的当前文本，选择和撰写状态。
+
 TextInputType
 要优化文本输入控件的信息类型。[...]
+
 TextPainter
 将TextSpan树绘制到Canvas中的对象。[...]
+
 TextPosition
 文本字符串中的视觉位置。
+
 的TextRange
 一串文本中的一系列字符。
+
 TextSelection
 表示选择的一系列文本。
+
 TextSelectionControls
 用于构建选择UI的界面，由工具栏小部件的实现者提供。[...]
+
 TextSelectionDelegate
 用于操作选择的界面，供工具栏小部件的实现者使用。
+
 TextSelectionOverlay
 管理一对文本选择句柄的对象。[...]
+
 TextSpan
 不可变的文本范围。[...]
+
 文字样式
 一种不可变的样式，其中绘制文本。[...]
+
 TextStyleTween
 两个TextStyle之间的插值。[...]
+
 质地
 一个矩形，后端纹理映射在该矩形上。[...]
+
 阈
 曲线为0.0，直到达到阈值，然后跳到1.0。[...]
+
 TickerFuture
 表示正在进行的Ticker序列的对象。[...]
+
 TickerMode
 启用或禁用窗口小部件子树中的代码（以及动画控制器）。[...]
+
 TickerProvider
 由可以销售Ticker对象的类实现的接口。[...]
+
 TickerProviderStateMixin < T扩展StatefulWidget >
 提供Ticker对象，这些对象配置为仅在启用当前树时打勾，如TickerMode所定义。[...]
+
 标题
 在操作系统中描述此应用程序的小部件。
+
 公差
 指定距离，持续时间和速度差异的最大允许幅度的结构被认为是相等的。
+
 TrackingScrollController
 一个ScrollController，其initialScrollOffset跟踪其最近更新的ScrollPosition。[...]
+
 TrainHoppingAnimation
 此动画通过代理一个动画开始，但可以给出第二个动画。当他们的时间交叉时（或者因为第二个是相反的方向，或者因为一个超过另一个），动画会跳到代理第二个动画，第二个动画成为新的“第一”动画。[...]
+
 转变
 在绘制其子项之前应用转换的窗口小部件。[...]
+
 TransformProperty
 处理表示变换的Matrix4的属性。
+
 TransitionRoute < T >
 具有入口和出口过渡的路线。
+
 Tween < T扩展动态 >
 开始值和结束值之间的线性插值。[...]
+
 TypeMatcher < T >
 此类是“is”运算符的解决方法，它不接受变量值作为其右操作数
+
 UnconstrainedBox
 一个小部件，它对子节点没有约束，允许它以“自然”大小呈现。[...]
+
 唯一键
 一个只与自己相等的关键。
+
 UniqueWidget < Ť延伸国< StatefulWidget > >
 有状态窗口小部件的基类，它在树中只有一个膨胀的实例。[...]
+
 UserScrollNotification
 用户已更改滚动方向的通知。[...]
+
 ValueKey < T >
 使用特定类型的值来标识自身的钥匙。[...]
+
 ValueNotifier < T >
 甲ChangeNotifier保存单个值。[...]
+
 速度
 二维速度。
+
 视口
 内部更大的小部件。[...]
+
 ViewportNotificationMixin
 Mixin for Notification用于跟踪他们已经通过的RenderAbstractViewport的数量。[...]
+
 窗口小部件
 用于描述元素的配置[...]
+
 WidgetInspector
 一个小部件，可以检查子小部件的结构。[...]
+
 WidgetInspectorService
 GUI工具用于与WidgetInspector交互的服务。[...]
+
 WidgetsApp
 一个便利类，它包含了应用程序通常需要的许多小部件。[...]
+
 WidgetsBinding
 小部件层和Flutter引擎之间的粘合剂。
+
 WidgetsBindingObserver
 使用Widgets图层绑定注册的类的接口。[...]
+
 WidgetsFlutterBinding
 基于Widgets框架的应用程序的具体绑定。这是将框架绑定到Flutter引擎的粘合剂。
+
 WidgetsLocalizations
 用于最低级别的Flutter框架的本地化资源值的接口。[...]
+
 WidgetToRenderBoxAdapter
 用于在窗口小部件树中放置特定RenderBox的适配器。[...]
+
 WillPopScope
 注册回调以否决用户尝试解除封闭的 ModalRoute。[...]
+
 包
 一个小部件，以多个水平或垂直运行方式显示其子项。[...]
+
 常量
 kAlwaysCompleteAnimation →const 动画< double >
 一个总是完整的动画。[...]
+
 const _AlwaysCompleteAnimation()
 kAlwaysDismissedAnimation →const 动画< double >
 一个总是被解雇的动画。[...]
 const _AlwaysDismissedAnimation()
+
 属性
 debugHighlightDeprecatedWidgets ↔ 布尔
 显示已弃用的小部件的横幅。
+
 读/写
 debugPrint ↔ DebugPrintCallback
 将消息打印到控制台，您可以使用“flutter”工具的“logs”命令（“flutter logs”）访问该控制台。[...]
+
 读/写
 debugPrintBuildScope ↔ 布尔
 记录所有来电BuildOwner.buildScope。[...]
+
 读/写
 debugPrintGlobalKeyedWidgetLifecycle ↔ 布尔
 在取消激活具有全局键的窗口小部件时记录，并在重新激活（重新记录）时记录。[...]
+
 读/写
 debugPrintRebuildDirtyWidgets ↔ 布尔
 记录每帧构建的脏小部件。[...]
+
 读/写
 debugPrintScheduleBuildForStacks ↔ 布尔
 记录将小部件标记为需要重建的调用堆栈。[...]
+
 读/写
 debugProfileBuildsEnabled ↔ 布尔
 Timeline为每个构建的Widget 添加事件。[...]
 读/写
 imageCache → ImageCache
 实现Flutter框架图像缓存的单例。[...]
+
 只读
 函数
 applyBoxFit（BoxFit fit， Size inputSize， Size outputSize） → FittedSizes
 应用BoxFit值。[...]
+
 axisDirectionIsReversed（AxisDirection axisDirection） → bool
 返回沿给定轴方向行进是否以数字递减顺序访问沿该轴的坐标。[...]
+
 axisDirectionToAxis（AxisDirection axisDirection） → 轴
 返回包含给定AxisDirection的Axis。[...]
+
 createLocalImageConfiguration（BuildContext context，{ Size size }） → ImageConfiguration
 基于给定的BuildContext（以及可选的大小） 创建ImageConfiguration。[...]
+
 debugAssertAllWidgetVarsUnset（String reason） → bool
 如果未更改任何窗口小部件库调试变量，则返回true。[...]
+
 debugCheckHasDirectionality（BuildContext context） → bool
 断言给定的上下文具有Directionality祖先。[...]
+
 debugCheckHasMediaQuery（BuildContext context） → bool
 断言给定上下文具有MediaQuery祖先。[...]
+
 debugCheckHasTable（BuildContext context） → bool
 断言给定上下文具有表祖先。[...]
+
 debugChildrenHaveDuplicateKeys（Widget parent， Iterable < Widget > children） → bool
 如果给定子列表包含任何重复的非null键，则置位。[...]
+
 debugDescribeTransform（Matrix4 transform） → List < String >
 以对TransformProperty有用的格式返回表示给定转换的字符串列表。[...]
+
 debugDumpApp（） →void
 打印当前正在运行的应用程序的字符串表示。
+
 debugDumpLayerTree（） →void
 打印整个图层树的文本表示。
+
 debugDumpRenderTree（） →void
 打印整个渲染树的文本表示。
+
 debugItemsHaveDuplicateKeys（Iterable < Widget > items） → bool
 如果给定的项列表包含任何重复的非空键，则断言。[...]
+
 debugPrintStack（{ String label， int maxFrames }） →void
 使用debugPrint和 FlutterError.defaultStackFilter将当前堆栈转储到控制台。[...]
 debugWidgetBuilderValue（Widget小 部件， Widget 内置） →void
