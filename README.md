@@ -10,5 +10,5 @@
 ### 参考资料
 
 * [flutter-widgets的官方库地址]( https://docs.flutter.kim/widgets/widgets-library.html )
-* [flutter-widgets的官方目录集]( https://flutter.io/widgets/ )
+* [flutter-widgets的官方目录集]( http://doc.flutter-dev.cn/widgets/ )
 
