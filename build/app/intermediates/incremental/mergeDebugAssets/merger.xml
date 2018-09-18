@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/ryan/work/ali/github/flutter-study/flutter_rookie_book/android/app/src/main/assets"/><source path="/Users/ryan/work/ali/github/flutter-study/flutter_rookie_book/build/app/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/ryan/work/ali/github/flutter-study/flutter_rookie_book/android/app/src/debug/assets"/></dataSet></merger>
